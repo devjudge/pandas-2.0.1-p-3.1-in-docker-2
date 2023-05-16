@@ -1,11 +1,8 @@
-# Gitpod-Pandas
+# cj-app
+Pandas 2.0.1 - Python 3.1 
 
-[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/gitpod-io/Gitpod-Pandas)
+    PROJECT START STEPS:
 
-A Pandas example running in Gitpod.
+    Pre-requisites:
+    1. Install need python and pip to be installed in your system.
 
-## Try it!
-
-Try it in the browser!
-
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/gitpod-io/Gitpod-Pandas)
