@@ -1,3 +1,15 @@
 tasks:
-  - init: pip3 install -r requirements.txt
-    command: python3 src/app.py
+  - init: |
+      pip install --upgrade pip
+      pip install -r requirements.txt
+      python manage.py migrate
+    command: python manage.py runserver 0.0.0.0:8080
+ports:
+  - port: 8080
+    name: "Backend Server"
+    onOpen: open-browser
+    visibility: public
+
+vscode:
+  extensions:
+    - ms-python.python
